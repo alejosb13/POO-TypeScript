@@ -1,0 +1,39 @@
+{
+  "name": "poo-typescript",
+  "version": "1.0.0",
+  "description": "Practica de patrones de diseño con TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test-singleton": "mocha -r ts-node/register src/creational/singleton/*.spec.ts",
+    "test-factory": "mocha -r ts-node/register src/creational/factory/*.spec.ts",
+    "test-abstract-factory": "mocha -r ts-node/register src/creational/abstract-factory/*.spec.ts",
+    "test-adapter": "mocha -r ts-node/register src/structural/adapter/*.spec.ts",
+    "test-decorator": "mocha -r ts-node/register src/structural/decorator/*.spec.ts",
+    "test-proxy": "mocha -r ts-node/register src/structural/proxy/*.spec.ts",
+    "test-command": "mocha -r ts-node/register src/behaviour/command/*.spec.ts",
+    "test-observer": "mocha -r ts-node/register src/behaviour/observer/*.spec.ts",
+    "test-strategy": "mocha -r ts-node/register src/behaviour/strategy/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejosb13/POO-TypeScript.git"
+  },
+  "keywords": [
+    "POO",
+    "TypeScript"
+  ],
+  "author": "Alejandro Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejosb13/POO-TypeScript/issues"
+  },
+  "homepage": "https://github.com/alejosb13/POO-TypeScript#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "mocha": "^9.1.3",
+    "ts-node": "^8.10.1",
+    "typescript": "^4.5.3"
+  }
+}
